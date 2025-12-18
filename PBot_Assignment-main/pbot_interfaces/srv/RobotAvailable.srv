@@ -1,0 +1,6 @@
+# Request
+---
+# Response
+bool available
+string current_state
+string reason

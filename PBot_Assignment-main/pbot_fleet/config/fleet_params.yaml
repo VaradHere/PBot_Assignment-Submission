@@ -1,0 +1,10 @@
+fleet_manager:
+  ros__parameters:
+    auto_dispatch: true
+    queue_check_interval: 2.0
+    waypoints_file: ''  # Leave empty to use default from pbot_bringup/config/waypoints.yaml
+
+interactive_waypoint_selector:
+  ros__parameters:
+    auto_submit: true  # Auto-submit order when both markers are positioned
+    marker_scale: 0.5  # Size of interactive markers in RViz

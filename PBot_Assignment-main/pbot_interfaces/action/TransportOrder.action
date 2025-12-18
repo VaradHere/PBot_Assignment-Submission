@@ -1,0 +1,15 @@
+# Goal
+geometry_msgs/Pose pickup_pose
+geometry_msgs/Pose dropoff_pose
+string order_id
+---
+# Result
+bool success
+string message
+float32 execution_time
+---
+# Feedback
+string current_state
+float32 progress_percentage
+geometry_msgs/Pose current_position
+string status_detail

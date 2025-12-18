@@ -1,0 +1,7 @@
+string fsm_state
+string active_goal
+geometry_msgs/Pose current_pose
+string status_message
+float32 battery_level
+bool gripper_state
+int32 retry_count

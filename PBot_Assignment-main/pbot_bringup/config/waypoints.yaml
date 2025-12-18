@@ -1,0 +1,25 @@
+# Warehouse waypoints configuration
+# All poses are in map frame coordinates
+
+# Named locations in the warehouse
+locations:
+  dock:
+    x: -0.017
+    y: 0.060
+    theta: -0.021  # From quaternion (z=-0.0105, w=0.9999) → ~-1.2 degrees
+  
+  pickup_point:
+    x: 5.926
+    y: -0.173
+    theta: -2.928  # From quaternion (z=-0.994, w=0.106) → ~-168 degrees
+  
+  dropoff_point:
+    x: 2.024
+    y: -3.085
+    theta: 1.74  # From quaternion (z=0.764, w=0.645) → ~100 degrees
+
+# Single demo transport order (one cycle only)
+demo_orders:
+  - name: "Transport Cycle"
+    pickup: pickup_point
+    dropoff: dropoff_point

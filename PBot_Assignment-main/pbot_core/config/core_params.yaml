@@ -1,0 +1,20 @@
+agv_supervisor:
+  ros__parameters:
+    # Docking station pose (home position)
+    dock_pose:
+      x: -0.016665512557951335
+      y: 0.06046074519625392
+      z: 0.0
+      theta: -0.021090762488  # derived from quaternion z=-0.0105, w=0.9999
+    
+    # Operational tolerances
+    position_tolerance: 2.0  # meters
+    
+    # Timeouts
+    navigation_timeout: 300.0  # seconds
+    pickup_timeout: 10.0
+    dropoff_timeout: 10.0
+    
+    # Retry limits
+    max_pickup_retries: 2
+    max_nav_retries: 1

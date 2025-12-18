@@ -1,0 +1,8 @@
+# Request
+string order_id
+geometry_msgs/Pose pickup_pose
+geometry_msgs/Pose dropoff_pose
+---
+# Response
+bool success
+string message
