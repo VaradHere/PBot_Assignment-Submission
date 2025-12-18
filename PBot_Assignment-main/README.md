@@ -268,7 +268,7 @@ ros2 run nav2_map_server map_saver_cli -f ~/Pbot_ws/src/PBot_Assignment-main/pbo
 ```
 
 ### 2. Run Full System
-
+### Make a Workspace and colcon build it first (ofc)
 ```bash
 # Single command - launches everything
 ros2 launch pbot_bringup pbot_system.launch.py use_demo_orders:=true
