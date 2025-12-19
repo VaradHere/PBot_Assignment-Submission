@@ -273,6 +273,7 @@ ros2 run nav2_map_server map_saver_cli -f ~/Pbot_ws/src/PBot_Assignment-main/pbo
 # Single command - launches everything
 ros2 launch pbot_bringup pbot_system.launch.py use_demo_orders:=true
 ```
+### When i was trying to launch this master launch file, it was not working, so i ran the nodes separeatly, it worked, have attached a demo clip in the imgs directory. Check out
 
 This starts:
 - ✅ Gazebo world + TurtleBot3 Waffle
