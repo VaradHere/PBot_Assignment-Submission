@@ -240,7 +240,7 @@ colcon build --symlink-install
 source install/setup.bash
 
 # Set TurtleBot3 model
-echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:~/Pbot_ws/src/PBot_Assignment-main/pbot_bringup/models" >> ~/.bashrc
 source ~/.bashrc
 ```
@@ -289,6 +289,7 @@ This starts:
 | **Demo Mode** | `use_demo_orders:=true` | Auto-execute orders from `waypoints.yaml` |
 | **Interactive** | `use_demo_orders:=false` | Wait for manual order submission |
 
+**### To Note:** I was exploring and trying to add, this feature i thought of using a Serivice based waypoint allocated by the user, who can just give the pick point and drop point through a service call or just interacting in the RViz so that By using InteractiveMarker, but this was just developed but not evaluated or testing, due to time bound, just a thought which i tried to implement.
 ---
 
 ## Usage
